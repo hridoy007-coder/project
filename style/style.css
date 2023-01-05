@@ -159,11 +159,13 @@ main {
     gap: 24px;
 
 }
-.resume-title{
+
+.resume-title {
     font-weight: 700;
     font-size: 30px;
 }
-.resume-item{
+
+.resume-item {
     font-weight: 700;
     font-size: 25px;
     margin: 30px 0;
@@ -188,13 +190,42 @@ main {
     font-size: 16px;
     color: #757575;
 }
-.resume-button{
+
+.resume-button {
     margin-top: 50px;
     text-align: center;
 }
 
 /* contuct style */
 
-.contact .section-title{
+.contact {
+    background: #FFF8F3;
+    padding: 130px 200px;
+    display: flex;
+    gap: 100px;
+}
+
+.contact .section-title {
     text-align: left;
+}
+
+.contact input[TYPE="text"],input[type="email"],textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 250px;
+    padding: 18PX 10px;
+}
+
+input {
+    height: 64px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.description {
+    color: #474747;
+    margin: 30px 0;
+    width: 400px;
 }
